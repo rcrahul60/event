@@ -9,6 +9,10 @@ from django.contrib.auth import authenticate
 
 
 
+
+def index(request):
+    return render(request,"index.html")
+
 #Event List
 @api_view(["GET"])
 @permission_classes([IsAuthenticated])
