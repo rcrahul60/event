@@ -36,3 +36,5 @@ class BookingCart(models.Model):
     
     class Meta:
         db_table = 'event_booking_cart'
+
+

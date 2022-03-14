@@ -16,5 +16,6 @@ class BookingSerializer(serializers.ModelSerializer):
     class Meta:
         model = BookingCart
         fields = '__all__'
+        #ordering = ["id",]
 
     

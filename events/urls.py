@@ -5,7 +5,10 @@ urlpatterns = [
     path('list/',EventListView,name="eventList"),
     path('create/',EventCreateView,name="eventCreate"),
     path('update/<int:id>/',EventUpdateView,name="eventUpdate"),
-    path('home/',index,name="home")
+    path('booking/',EventBookingView,name="eventBooking"),
+    path('booking/list/',EventBookingList,name="eventBookingList"),
+
+
 
     
    
